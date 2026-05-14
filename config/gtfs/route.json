@@ -5,5 +5,16 @@
     "default_route_long_name_enabled": true,
     "direction_finder_enabled": true,
     "trip_headsign_remove_via": true,
-    "trip_headsign_cleaners": []
+    "trip_headsign_cleaners": [
+        {
+            "regex": "express",
+            "ignore_case": true,
+            "is_word": true
+        },
+        {
+            "regex": "special",
+            "ignore_case": true,
+            "is_word": true
+        }
+    ]
 }
